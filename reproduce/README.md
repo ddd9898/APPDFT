@@ -109,5 +109,7 @@ python reproduce/plot_IMresults_Bar.py
 ```
 
 <img src="../output/figures/PR curve benchmark on IM testing data.png" title="" alt="Alternative text" width="247"><img src="../output/figures/PR curve benchmark on IM testing data(9-10mer).png" title="" alt="Alternative text" width="250">
+
 <img title="" src="../output/figures/Recall and Precision curve benchmark on IM testing data.png" alt="Alternative text" width="165"><img title="" src="../output/figures/Recall and Precision curve benchmark on TESLA testing data.png" alt="Alternative text" width="160"><img title="" src="../output/figures/Recall and Precision curve benchmark on Sars-Cov2-con testing data.png" alt="Alternative text" width="159"><img title="" src="../output/figures/Recall and Precision curve benchmark on Sars-Cov2-un testing data.png" alt="Alternative text" width="157">
+
 <img title="" src="../output/figures/PR curve benchmark on IM testing data(Self).png" alt="Alternative text" width="201"><img title="" src="../output/figures/PR curve benchmark on TESLA testing data(Self).png" alt="Alternative text" width="204"><img title="" src="../output/figures/ROC curve benchmark on SarsCov2-conData(Self).png" alt="Alternative text" width="204">
