@@ -34,7 +34,7 @@ python ./utils/generateELIMdataset.py
 > pure_IM=31537,pure_EL=4100575,mix=577
 > conflict_count=3,EL1IM0_count=220
 
-```python
+```console
 python ./utils/generateFiveFolds.py
 python ./utils/generatePseudoSeq.py
 ```
