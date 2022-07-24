@@ -1,0 +1,443 @@
+2022-07-18 17:09:23,083 - main_train_Model.py[line:288] - INFO: Load pretrained model!
+2022-07-18 17:09:23,100 - main_train_Model.py[line:341] - INFO: Starting training:
+    Epochs:          200
+    Batch size:      3200
+    Learning rate:   0.0001
+    Training size:   3306152
+    Validation size: 826537
+    LINK:            True
+    Device:          cuda
+    
+2022-07-18 17:09:23,101 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 17:09:24,670 - main_train_Model.py[line:99] - INFO: Train epoch: 0 [0/3306152 (0%)]	Loss: 0.048803
+2022-07-18 17:14:17,876 - main_train_Model.py[line:99] - INFO: Train epoch: 0 [960000/3306152 (29%)]	Loss: 0.007968
+2022-07-18 17:19:18,193 - main_train_Model.py[line:99] - INFO: Train epoch: 0 [1920000/3306152 (58%)]	Loss: 0.007095
+2022-07-18 17:24:20,768 - main_train_Model.py[line:99] - INFO: Train epoch: 0 [2880000/3306152 (87%)]	Loss: 0.007030
+2022-07-18 17:26:32,506 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 17:26:32,507 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 17:28:24,526 - main_train_Model.py[line:359] - INFO: Epoch 0 with EL-AUCROC:IM-AUCROC=0.9874:0.9716
+2022-07-18 17:28:24,559 - main_train_Model.py[line:385] - INFO: BestEpoch=0,0; BestResult=0.9874,0.9716 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 17:28:24,561 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 17:28:25,952 - main_train_Model.py[line:99] - INFO: Train epoch: 1 [0/3306152 (0%)]	Loss: 0.005315
+2022-07-18 17:33:28,384 - main_train_Model.py[line:99] - INFO: Train epoch: 1 [960000/3306152 (29%)]	Loss: 0.005179
+2022-07-18 17:38:30,382 - main_train_Model.py[line:99] - INFO: Train epoch: 1 [1920000/3306152 (58%)]	Loss: 0.005303
+2022-07-18 17:43:30,018 - main_train_Model.py[line:99] - INFO: Train epoch: 1 [2880000/3306152 (87%)]	Loss: 0.005919
+2022-07-18 17:45:45,058 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 17:45:45,058 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 17:47:34,225 - main_train_Model.py[line:359] - INFO: Epoch 1 with EL-AUCROC:IM-AUCROC=0.9896:0.9725
+2022-07-18 17:47:34,257 - main_train_Model.py[line:385] - INFO: BestEpoch=1,1; BestResult=0.9896,0.9725 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 17:47:34,258 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 17:47:35,667 - main_train_Model.py[line:99] - INFO: Train epoch: 2 [0/3306152 (0%)]	Loss: 0.005479
+2022-07-18 17:52:36,143 - main_train_Model.py[line:99] - INFO: Train epoch: 2 [960000/3306152 (29%)]	Loss: 0.005797
+2022-07-18 17:57:38,424 - main_train_Model.py[line:99] - INFO: Train epoch: 2 [1920000/3306152 (58%)]	Loss: 0.005398
+2022-07-18 18:02:40,448 - main_train_Model.py[line:99] - INFO: Train epoch: 2 [2880000/3306152 (87%)]	Loss: 0.004664
+2022-07-18 18:04:52,811 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 18:04:52,812 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 18:06:43,683 - main_train_Model.py[line:359] - INFO: Epoch 2 with EL-AUCROC:IM-AUCROC=0.9907:0.9751
+2022-07-18 18:06:43,721 - main_train_Model.py[line:385] - INFO: BestEpoch=2,2; BestResult=0.9907,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 18:06:43,724 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 18:06:45,134 - main_train_Model.py[line:99] - INFO: Train epoch: 3 [0/3306152 (0%)]	Loss: 0.003985
+2022-07-18 18:11:44,656 - main_train_Model.py[line:99] - INFO: Train epoch: 3 [960000/3306152 (29%)]	Loss: 0.004352
+2022-07-18 18:16:46,260 - main_train_Model.py[line:99] - INFO: Train epoch: 3 [1920000/3306152 (58%)]	Loss: 0.005071
+2022-07-18 18:21:45,894 - main_train_Model.py[line:99] - INFO: Train epoch: 3 [2880000/3306152 (87%)]	Loss: 0.005484
+2022-07-18 18:23:59,180 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 18:23:59,181 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 18:25:48,410 - main_train_Model.py[line:359] - INFO: Epoch 3 with EL-AUCROC:IM-AUCROC=0.9908:0.9719
+2022-07-18 18:25:48,428 - main_train_Model.py[line:385] - INFO: BestEpoch=3,2; BestResult=0.9908,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 18:25:48,430 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 18:25:49,846 - main_train_Model.py[line:99] - INFO: Train epoch: 4 [0/3306152 (0%)]	Loss: 0.005059
+2022-07-18 18:30:54,206 - main_train_Model.py[line:99] - INFO: Train epoch: 4 [960000/3306152 (29%)]	Loss: 0.004797
+2022-07-18 18:35:57,242 - main_train_Model.py[line:99] - INFO: Train epoch: 4 [1920000/3306152 (58%)]	Loss: 0.005047
+2022-07-18 18:41:01,420 - main_train_Model.py[line:99] - INFO: Train epoch: 4 [2880000/3306152 (87%)]	Loss: 0.004930
+2022-07-18 18:43:15,704 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 18:43:15,705 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 18:45:04,105 - main_train_Model.py[line:359] - INFO: Epoch 4 with EL-AUCROC:IM-AUCROC=0.9915:0.9738
+2022-07-18 18:45:04,124 - main_train_Model.py[line:385] - INFO: BestEpoch=4,2; BestResult=0.9915,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 18:45:04,126 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 18:45:05,544 - main_train_Model.py[line:99] - INFO: Train epoch: 5 [0/3306152 (0%)]	Loss: 0.004025
+2022-07-18 18:50:04,743 - main_train_Model.py[line:99] - INFO: Train epoch: 5 [960000/3306152 (29%)]	Loss: 0.006018
+2022-07-18 18:55:06,131 - main_train_Model.py[line:99] - INFO: Train epoch: 5 [1920000/3306152 (58%)]	Loss: 0.005923
+2022-07-18 19:00:07,663 - main_train_Model.py[line:99] - INFO: Train epoch: 5 [2880000/3306152 (87%)]	Loss: 0.004844
+2022-07-18 19:02:22,793 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 19:02:22,794 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 19:04:10,211 - main_train_Model.py[line:359] - INFO: Epoch 5 with EL-AUCROC:IM-AUCROC=0.9919:0.9732
+2022-07-18 19:04:10,229 - main_train_Model.py[line:385] - INFO: BestEpoch=5,2; BestResult=0.9919,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 19:04:10,230 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 19:04:11,653 - main_train_Model.py[line:99] - INFO: Train epoch: 6 [0/3306152 (0%)]	Loss: 0.004175
+2022-07-18 19:09:13,009 - main_train_Model.py[line:99] - INFO: Train epoch: 6 [960000/3306152 (29%)]	Loss: 0.003915
+2022-07-18 19:14:16,022 - main_train_Model.py[line:99] - INFO: Train epoch: 6 [1920000/3306152 (58%)]	Loss: 0.004565
+2022-07-18 19:19:16,427 - main_train_Model.py[line:99] - INFO: Train epoch: 6 [2880000/3306152 (87%)]	Loss: 0.004994
+2022-07-18 19:21:29,493 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 19:21:29,493 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 19:23:14,062 - main_train_Model.py[line:359] - INFO: Epoch 6 with EL-AUCROC:IM-AUCROC=0.9918:0.9745
+2022-07-18 19:23:14,063 - main_train_Model.py[line:385] - INFO: BestEpoch=5,2; BestResult=0.9919,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 19:23:14,064 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 19:23:17,034 - main_train_Model.py[line:99] - INFO: Train epoch: 7 [0/3306152 (0%)]	Loss: 0.004171
+2022-07-18 19:28:16,508 - main_train_Model.py[line:99] - INFO: Train epoch: 7 [960000/3306152 (29%)]	Loss: 0.006282
+2022-07-18 19:33:16,818 - main_train_Model.py[line:99] - INFO: Train epoch: 7 [1920000/3306152 (58%)]	Loss: 0.005073
+2022-07-18 19:38:17,540 - main_train_Model.py[line:99] - INFO: Train epoch: 7 [2880000/3306152 (87%)]	Loss: 0.003808
+2022-07-18 19:40:32,195 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 19:40:32,195 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 19:42:17,024 - main_train_Model.py[line:359] - INFO: Epoch 7 with EL-AUCROC:IM-AUCROC=0.9921:0.9740
+2022-07-18 19:42:17,042 - main_train_Model.py[line:385] - INFO: BestEpoch=7,2; BestResult=0.9921,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 19:42:17,044 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 19:42:18,443 - main_train_Model.py[line:99] - INFO: Train epoch: 8 [0/3306152 (0%)]	Loss: 0.005354
+2022-07-18 19:47:20,243 - main_train_Model.py[line:99] - INFO: Train epoch: 8 [960000/3306152 (29%)]	Loss: 0.005158
+2022-07-18 19:52:22,794 - main_train_Model.py[line:99] - INFO: Train epoch: 8 [1920000/3306152 (58%)]	Loss: 0.005627
+2022-07-18 19:57:22,388 - main_train_Model.py[line:99] - INFO: Train epoch: 8 [2880000/3306152 (87%)]	Loss: 0.004756
+2022-07-18 19:59:35,318 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 19:59:35,319 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 20:01:22,321 - main_train_Model.py[line:359] - INFO: Epoch 8 with EL-AUCROC:IM-AUCROC=0.9922:0.9743
+2022-07-18 20:01:22,338 - main_train_Model.py[line:385] - INFO: BestEpoch=8,2; BestResult=0.9922,0.9751 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 20:01:22,340 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 20:01:23,753 - main_train_Model.py[line:99] - INFO: Train epoch: 9 [0/3306152 (0%)]	Loss: 0.004420
+2022-07-18 20:06:21,215 - main_train_Model.py[line:99] - INFO: Train epoch: 9 [960000/3306152 (29%)]	Loss: 0.005634
+2022-07-18 20:11:15,213 - main_train_Model.py[line:99] - INFO: Train epoch: 9 [1920000/3306152 (58%)]	Loss: 0.004181
+2022-07-18 20:16:14,652 - main_train_Model.py[line:99] - INFO: Train epoch: 9 [2880000/3306152 (87%)]	Loss: 0.004711
+2022-07-18 20:18:28,338 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 20:18:28,339 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 20:20:17,047 - main_train_Model.py[line:359] - INFO: Epoch 9 with EL-AUCROC:IM-AUCROC=0.9924:0.9757
+2022-07-18 20:20:17,081 - main_train_Model.py[line:385] - INFO: BestEpoch=9,9; BestResult=0.9924,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 20:20:17,083 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 20:20:18,417 - main_train_Model.py[line:99] - INFO: Train epoch: 10 [0/3306152 (0%)]	Loss: 0.003662
+2022-07-18 20:25:12,444 - main_train_Model.py[line:99] - INFO: Train epoch: 10 [960000/3306152 (29%)]	Loss: 0.004689
+2022-07-18 20:30:07,120 - main_train_Model.py[line:99] - INFO: Train epoch: 10 [1920000/3306152 (58%)]	Loss: 0.004689
+2022-07-18 20:35:06,665 - main_train_Model.py[line:99] - INFO: Train epoch: 10 [2880000/3306152 (87%)]	Loss: 0.003825
+2022-07-18 20:37:17,207 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 20:37:17,208 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 20:39:03,071 - main_train_Model.py[line:359] - INFO: Epoch 10 with EL-AUCROC:IM-AUCROC=0.9926:0.9753
+2022-07-18 20:39:03,090 - main_train_Model.py[line:385] - INFO: BestEpoch=10,9; BestResult=0.9926,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 20:39:03,091 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 20:39:04,498 - main_train_Model.py[line:99] - INFO: Train epoch: 11 [0/3306152 (0%)]	Loss: 0.004487
+2022-07-18 20:44:03,576 - main_train_Model.py[line:99] - INFO: Train epoch: 11 [960000/3306152 (29%)]	Loss: 0.005148
+2022-07-18 20:48:57,896 - main_train_Model.py[line:99] - INFO: Train epoch: 11 [1920000/3306152 (58%)]	Loss: 0.003642
+2022-07-18 20:53:41,167 - main_train_Model.py[line:99] - INFO: Train epoch: 11 [2880000/3306152 (87%)]	Loss: 0.003968
+2022-07-18 20:55:45,243 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 20:55:45,244 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 20:57:31,586 - main_train_Model.py[line:359] - INFO: Epoch 11 with EL-AUCROC:IM-AUCROC=0.9925:0.9745
+2022-07-18 20:57:31,587 - main_train_Model.py[line:385] - INFO: BestEpoch=10,9; BestResult=0.9926,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 20:57:31,588 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 20:57:32,955 - main_train_Model.py[line:99] - INFO: Train epoch: 12 [0/3306152 (0%)]	Loss: 0.003529
+2022-07-18 21:02:27,534 - main_train_Model.py[line:99] - INFO: Train epoch: 12 [960000/3306152 (29%)]	Loss: 0.003636
+2022-07-18 21:07:22,059 - main_train_Model.py[line:99] - INFO: Train epoch: 12 [1920000/3306152 (58%)]	Loss: 0.004723
+2022-07-18 21:12:16,388 - main_train_Model.py[line:99] - INFO: Train epoch: 12 [2880000/3306152 (87%)]	Loss: 0.004956
+2022-07-18 21:14:26,972 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 21:14:26,973 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 21:16:12,531 - main_train_Model.py[line:359] - INFO: Epoch 12 with EL-AUCROC:IM-AUCROC=0.9927:0.9738
+2022-07-18 21:16:12,549 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 21:16:12,551 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 21:16:13,889 - main_train_Model.py[line:99] - INFO: Train epoch: 13 [0/3306152 (0%)]	Loss: 0.004070
+2022-07-18 21:21:09,214 - main_train_Model.py[line:99] - INFO: Train epoch: 13 [960000/3306152 (29%)]	Loss: 0.004978
+2022-07-18 21:26:03,379 - main_train_Model.py[line:99] - INFO: Train epoch: 13 [1920000/3306152 (58%)]	Loss: 0.004492
+2022-07-18 21:30:58,070 - main_train_Model.py[line:99] - INFO: Train epoch: 13 [2880000/3306152 (87%)]	Loss: 0.003995
+2022-07-18 21:33:08,888 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 21:33:08,889 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 21:34:54,385 - main_train_Model.py[line:359] - INFO: Epoch 13 with EL-AUCROC:IM-AUCROC=0.9927:0.9738
+2022-07-18 21:34:54,385 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 21:34:54,387 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 21:34:55,677 - main_train_Model.py[line:99] - INFO: Train epoch: 14 [0/3306152 (0%)]	Loss: 0.004067
+2022-07-18 21:39:50,933 - main_train_Model.py[line:99] - INFO: Train epoch: 14 [960000/3306152 (29%)]	Loss: 0.004654
+2022-07-18 21:44:45,309 - main_train_Model.py[line:99] - INFO: Train epoch: 14 [1920000/3306152 (58%)]	Loss: 0.003604
+2022-07-18 21:49:39,132 - main_train_Model.py[line:99] - INFO: Train epoch: 14 [2880000/3306152 (87%)]	Loss: 0.005153
+2022-07-18 21:51:49,840 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 21:51:49,841 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 21:53:35,528 - main_train_Model.py[line:359] - INFO: Epoch 14 with EL-AUCROC:IM-AUCROC=0.9926:0.9746
+2022-07-18 21:53:35,528 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 21:53:35,530 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 21:53:37,032 - main_train_Model.py[line:99] - INFO: Train epoch: 15 [0/3306152 (0%)]	Loss: 0.003287
+2022-07-18 21:58:17,861 - main_train_Model.py[line:99] - INFO: Train epoch: 15 [960000/3306152 (29%)]	Loss: 0.004850
+2022-07-18 22:03:13,184 - main_train_Model.py[line:99] - INFO: Train epoch: 15 [1920000/3306152 (58%)]	Loss: 0.004086
+2022-07-18 22:08:08,482 - main_train_Model.py[line:99] - INFO: Train epoch: 15 [2880000/3306152 (87%)]	Loss: 0.003712
+2022-07-18 22:10:18,003 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 22:10:18,004 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 22:12:04,955 - main_train_Model.py[line:359] - INFO: Epoch 15 with EL-AUCROC:IM-AUCROC=0.9926:0.9743
+2022-07-18 22:12:04,956 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 22:12:04,958 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 22:12:06,309 - main_train_Model.py[line:99] - INFO: Train epoch: 16 [0/3306152 (0%)]	Loss: 0.004726
+2022-07-18 22:17:00,540 - main_train_Model.py[line:99] - INFO: Train epoch: 16 [960000/3306152 (29%)]	Loss: 0.003623
+2022-07-18 22:21:56,661 - main_train_Model.py[line:99] - INFO: Train epoch: 16 [1920000/3306152 (58%)]	Loss: 0.003697
+2022-07-18 22:26:54,524 - main_train_Model.py[line:99] - INFO: Train epoch: 16 [2880000/3306152 (87%)]	Loss: 0.004213
+2022-07-18 22:29:04,619 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 22:29:04,620 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 22:30:51,328 - main_train_Model.py[line:359] - INFO: Epoch 16 with EL-AUCROC:IM-AUCROC=0.9926:0.9744
+2022-07-18 22:30:51,329 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 22:30:51,331 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 22:30:52,706 - main_train_Model.py[line:99] - INFO: Train epoch: 17 [0/3306152 (0%)]	Loss: 0.003607
+2022-07-18 22:35:52,158 - main_train_Model.py[line:99] - INFO: Train epoch: 17 [960000/3306152 (29%)]	Loss: 0.003767
+2022-07-18 22:40:48,756 - main_train_Model.py[line:99] - INFO: Train epoch: 17 [1920000/3306152 (58%)]	Loss: 0.003502
+2022-07-18 22:45:44,665 - main_train_Model.py[line:99] - INFO: Train epoch: 17 [2880000/3306152 (87%)]	Loss: 0.003074
+2022-07-18 22:47:53,977 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 22:47:53,978 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 22:49:40,973 - main_train_Model.py[line:359] - INFO: Epoch 17 with EL-AUCROC:IM-AUCROC=0.9926:0.9747
+2022-07-18 22:49:40,973 - main_train_Model.py[line:385] - INFO: BestEpoch=12,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 22:49:40,975 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 22:49:42,285 - main_train_Model.py[line:99] - INFO: Train epoch: 18 [0/3306152 (0%)]	Loss: 0.004061
+2022-07-18 22:54:38,198 - main_train_Model.py[line:99] - INFO: Train epoch: 18 [960000/3306152 (29%)]	Loss: 0.005237
+2022-07-18 22:59:35,614 - main_train_Model.py[line:99] - INFO: Train epoch: 18 [1920000/3306152 (58%)]	Loss: 0.004037
+2022-07-18 23:04:31,824 - main_train_Model.py[line:99] - INFO: Train epoch: 18 [2880000/3306152 (87%)]	Loss: 0.003964
+2022-07-18 23:06:41,777 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 23:06:41,778 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 23:08:29,011 - main_train_Model.py[line:359] - INFO: Epoch 18 with EL-AUCROC:IM-AUCROC=0.9927:0.9730
+2022-07-18 23:08:29,035 - main_train_Model.py[line:385] - INFO: BestEpoch=18,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 23:08:29,038 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 23:08:30,520 - main_train_Model.py[line:99] - INFO: Train epoch: 19 [0/3306152 (0%)]	Loss: 0.004815
+2022-07-18 23:13:10,536 - main_train_Model.py[line:99] - INFO: Train epoch: 19 [960000/3306152 (29%)]	Loss: 0.002963
+2022-07-18 23:18:06,358 - main_train_Model.py[line:99] - INFO: Train epoch: 19 [1920000/3306152 (58%)]	Loss: 0.002955
+2022-07-18 23:23:02,634 - main_train_Model.py[line:99] - INFO: Train epoch: 19 [2880000/3306152 (87%)]	Loss: 0.003628
+2022-07-18 23:25:16,187 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 23:25:16,187 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 23:27:04,074 - main_train_Model.py[line:359] - INFO: Epoch 19 with EL-AUCROC:IM-AUCROC=0.9927:0.9752
+2022-07-18 23:27:04,074 - main_train_Model.py[line:385] - INFO: BestEpoch=18,9; BestResult=0.9927,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 23:27:04,076 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 23:27:05,426 - main_train_Model.py[line:99] - INFO: Train epoch: 20 [0/3306152 (0%)]	Loss: 0.003343
+2022-07-18 23:32:01,351 - main_train_Model.py[line:99] - INFO: Train epoch: 20 [960000/3306152 (29%)]	Loss: 0.003082
+2022-07-18 23:36:56,906 - main_train_Model.py[line:99] - INFO: Train epoch: 20 [1920000/3306152 (58%)]	Loss: 0.002588
+2022-07-18 23:41:51,138 - main_train_Model.py[line:99] - INFO: Train epoch: 20 [2880000/3306152 (87%)]	Loss: 0.002286
+2022-07-18 23:44:01,721 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-18 23:44:01,722 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-18 23:45:48,606 - main_train_Model.py[line:359] - INFO: Epoch 20 with EL-AUCROC:IM-AUCROC=0.9932:0.9752
+2022-07-18 23:45:48,623 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-18 23:45:48,625 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-18 23:45:50,025 - main_train_Model.py[line:99] - INFO: Train epoch: 21 [0/3306152 (0%)]	Loss: 0.003627
+2022-07-18 23:50:44,315 - main_train_Model.py[line:99] - INFO: Train epoch: 21 [960000/3306152 (29%)]	Loss: 0.003356
+2022-07-18 23:55:43,390 - main_train_Model.py[line:99] - INFO: Train epoch: 21 [1920000/3306152 (58%)]	Loss: 0.002857
+2022-07-19 00:00:43,081 - main_train_Model.py[line:99] - INFO: Train epoch: 21 [2880000/3306152 (87%)]	Loss: 0.003769
+2022-07-19 00:02:54,531 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 00:02:54,532 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 00:04:41,410 - main_train_Model.py[line:359] - INFO: Epoch 21 with EL-AUCROC:IM-AUCROC=0.9932:0.9752
+2022-07-19 00:04:41,410 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 00:04:41,412 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 00:04:42,738 - main_train_Model.py[line:99] - INFO: Train epoch: 22 [0/3306152 (0%)]	Loss: 0.003386
+2022-07-19 00:09:36,864 - main_train_Model.py[line:99] - INFO: Train epoch: 22 [960000/3306152 (29%)]	Loss: 0.002964
+2022-07-19 00:14:33,233 - main_train_Model.py[line:99] - INFO: Train epoch: 22 [1920000/3306152 (58%)]	Loss: 0.003918
+2022-07-19 00:19:28,036 - main_train_Model.py[line:99] - INFO: Train epoch: 22 [2880000/3306152 (87%)]	Loss: 0.003595
+2022-07-19 00:21:38,800 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 00:21:38,801 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 00:23:28,788 - main_train_Model.py[line:359] - INFO: Epoch 22 with EL-AUCROC:IM-AUCROC=0.9931:0.9753
+2022-07-19 00:23:28,788 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 00:23:28,790 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 00:23:30,223 - main_train_Model.py[line:99] - INFO: Train epoch: 23 [0/3306152 (0%)]	Loss: 0.003232
+2022-07-19 00:28:34,320 - main_train_Model.py[line:99] - INFO: Train epoch: 23 [960000/3306152 (29%)]	Loss: 0.003126
+2022-07-19 00:33:38,562 - main_train_Model.py[line:99] - INFO: Train epoch: 23 [1920000/3306152 (58%)]	Loss: 0.002938
+2022-07-19 00:38:41,946 - main_train_Model.py[line:99] - INFO: Train epoch: 23 [2880000/3306152 (87%)]	Loss: 0.003266
+2022-07-19 00:40:55,037 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 00:40:55,038 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 00:42:43,493 - main_train_Model.py[line:359] - INFO: Epoch 23 with EL-AUCROC:IM-AUCROC=0.9931:0.9752
+2022-07-19 00:42:43,494 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 00:42:43,496 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 00:42:44,827 - main_train_Model.py[line:99] - INFO: Train epoch: 24 [0/3306152 (0%)]	Loss: 0.002894
+2022-07-19 00:47:38,893 - main_train_Model.py[line:99] - INFO: Train epoch: 24 [960000/3306152 (29%)]	Loss: 0.002807
+2022-07-19 00:52:33,776 - main_train_Model.py[line:99] - INFO: Train epoch: 24 [1920000/3306152 (58%)]	Loss: 0.003055
+2022-07-19 00:57:30,803 - main_train_Model.py[line:99] - INFO: Train epoch: 24 [2880000/3306152 (87%)]	Loss: 0.003628
+2022-07-19 00:59:40,170 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 00:59:40,171 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 01:01:29,358 - main_train_Model.py[line:359] - INFO: Epoch 24 with EL-AUCROC:IM-AUCROC=0.9931:0.9750
+2022-07-19 01:01:29,358 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 01:01:29,361 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 01:01:30,686 - main_train_Model.py[line:99] - INFO: Train epoch: 25 [0/3306152 (0%)]	Loss: 0.003246
+2022-07-19 01:06:25,184 - main_train_Model.py[line:99] - INFO: Train epoch: 25 [960000/3306152 (29%)]	Loss: 0.002961
+2022-07-19 01:11:19,030 - main_train_Model.py[line:99] - INFO: Train epoch: 25 [1920000/3306152 (58%)]	Loss: 0.003214
+2022-07-19 01:16:12,946 - main_train_Model.py[line:99] - INFO: Train epoch: 25 [2880000/3306152 (87%)]	Loss: 0.003620
+2022-07-19 01:18:23,770 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 01:18:23,771 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 01:20:12,558 - main_train_Model.py[line:359] - INFO: Epoch 25 with EL-AUCROC:IM-AUCROC=0.9931:0.9753
+2022-07-19 01:20:12,559 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 01:20:12,561 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 01:20:14,083 - main_train_Model.py[line:99] - INFO: Train epoch: 26 [0/3306152 (0%)]	Loss: 0.003065
+2022-07-19 01:25:09,006 - main_train_Model.py[line:99] - INFO: Train epoch: 26 [960000/3306152 (29%)]	Loss: 0.003031
+2022-07-19 01:30:03,162 - main_train_Model.py[line:99] - INFO: Train epoch: 26 [1920000/3306152 (58%)]	Loss: 0.003831
+2022-07-19 01:34:57,169 - main_train_Model.py[line:99] - INFO: Train epoch: 26 [2880000/3306152 (87%)]	Loss: 0.002981
+2022-07-19 01:37:08,717 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 01:37:08,718 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 01:38:58,220 - main_train_Model.py[line:359] - INFO: Epoch 26 with EL-AUCROC:IM-AUCROC=0.9930:0.9752
+2022-07-19 01:38:58,221 - main_train_Model.py[line:385] - INFO: BestEpoch=20,9; BestResult=0.9932,0.9757 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 01:38:58,222 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 01:38:59,613 - main_train_Model.py[line:99] - INFO: Train epoch: 27 [0/3306152 (0%)]	Loss: 0.003646
+2022-07-19 01:43:56,511 - main_train_Model.py[line:99] - INFO: Train epoch: 27 [960000/3306152 (29%)]	Loss: 0.002718
+2022-07-19 01:48:53,874 - main_train_Model.py[line:99] - INFO: Train epoch: 27 [1920000/3306152 (58%)]	Loss: 0.003378
+2022-07-19 01:53:48,164 - main_train_Model.py[line:99] - INFO: Train epoch: 27 [2880000/3306152 (87%)]	Loss: 0.003122
+2022-07-19 01:55:57,310 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 01:55:57,311 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 01:57:44,913 - main_train_Model.py[line:359] - INFO: Epoch 27 with EL-AUCROC:IM-AUCROC=0.9931:0.9760
+2022-07-19 01:57:44,931 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 01:57:44,934 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 01:57:46,324 - main_train_Model.py[line:99] - INFO: Train epoch: 28 [0/3306152 (0%)]	Loss: 0.002786
+2022-07-19 02:02:42,243 - main_train_Model.py[line:99] - INFO: Train epoch: 28 [960000/3306152 (29%)]	Loss: 0.003478
+2022-07-19 02:07:37,913 - main_train_Model.py[line:99] - INFO: Train epoch: 28 [1920000/3306152 (58%)]	Loss: 0.003672
+2022-07-19 02:12:32,248 - main_train_Model.py[line:99] - INFO: Train epoch: 28 [2880000/3306152 (87%)]	Loss: 0.002880
+2022-07-19 02:14:41,573 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 02:14:41,574 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 02:16:28,418 - main_train_Model.py[line:359] - INFO: Epoch 28 with EL-AUCROC:IM-AUCROC=0.9931:0.9755
+2022-07-19 02:16:28,418 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 02:16:28,420 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 02:16:29,829 - main_train_Model.py[line:99] - INFO: Train epoch: 29 [0/3306152 (0%)]	Loss: 0.003513
+2022-07-19 02:21:25,582 - main_train_Model.py[line:99] - INFO: Train epoch: 29 [960000/3306152 (29%)]	Loss: 0.003584
+2022-07-19 02:26:21,525 - main_train_Model.py[line:99] - INFO: Train epoch: 29 [1920000/3306152 (58%)]	Loss: 0.002963
+2022-07-19 02:31:06,384 - main_train_Model.py[line:99] - INFO: Train epoch: 29 [2880000/3306152 (87%)]	Loss: 0.002542
+2022-07-19 02:33:09,035 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 02:33:09,035 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 02:34:56,676 - main_train_Model.py[line:359] - INFO: Epoch 29 with EL-AUCROC:IM-AUCROC=0.9930:0.9753
+2022-07-19 02:34:56,676 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 02:34:56,678 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 02:34:58,190 - main_train_Model.py[line:99] - INFO: Train epoch: 30 [0/3306152 (0%)]	Loss: 0.003258
+2022-07-19 02:39:51,953 - main_train_Model.py[line:99] - INFO: Train epoch: 30 [960000/3306152 (29%)]	Loss: 0.003143
+2022-07-19 02:44:51,613 - main_train_Model.py[line:99] - INFO: Train epoch: 30 [1920000/3306152 (58%)]	Loss: 0.003411
+2022-07-19 02:49:46,316 - main_train_Model.py[line:99] - INFO: Train epoch: 30 [2880000/3306152 (87%)]	Loss: 0.002539
+2022-07-19 02:51:55,606 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 02:51:55,607 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 02:53:42,800 - main_train_Model.py[line:359] - INFO: Epoch 30 with EL-AUCROC:IM-AUCROC=0.9930:0.9750
+2022-07-19 02:53:42,801 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 02:53:42,803 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 02:53:44,175 - main_train_Model.py[line:99] - INFO: Train epoch: 31 [0/3306152 (0%)]	Loss: 0.003512
+2022-07-19 02:58:38,297 - main_train_Model.py[line:99] - INFO: Train epoch: 31 [960000/3306152 (29%)]	Loss: 0.002811
+2022-07-19 03:03:37,975 - main_train_Model.py[line:99] - INFO: Train epoch: 31 [1920000/3306152 (58%)]	Loss: 0.003515
+2022-07-19 03:08:35,268 - main_train_Model.py[line:99] - INFO: Train epoch: 31 [2880000/3306152 (87%)]	Loss: 0.003374
+2022-07-19 03:10:46,180 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 03:10:46,181 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 03:12:34,382 - main_train_Model.py[line:359] - INFO: Epoch 31 with EL-AUCROC:IM-AUCROC=0.9930:0.9756
+2022-07-19 03:12:34,382 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 03:12:34,384 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 03:12:35,809 - main_train_Model.py[line:99] - INFO: Train epoch: 32 [0/3306152 (0%)]	Loss: 0.003411
+2022-07-19 03:17:30,661 - main_train_Model.py[line:99] - INFO: Train epoch: 32 [960000/3306152 (29%)]	Loss: 0.002954
+2022-07-19 03:22:28,151 - main_train_Model.py[line:99] - INFO: Train epoch: 32 [1920000/3306152 (58%)]	Loss: 0.003430
+2022-07-19 03:27:22,272 - main_train_Model.py[line:99] - INFO: Train epoch: 32 [2880000/3306152 (87%)]	Loss: 0.003514
+2022-07-19 03:29:33,944 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 03:29:33,944 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 03:31:22,215 - main_train_Model.py[line:359] - INFO: Epoch 32 with EL-AUCROC:IM-AUCROC=0.9930:0.9753
+2022-07-19 03:31:22,216 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 03:31:22,217 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 03:31:23,579 - main_train_Model.py[line:99] - INFO: Train epoch: 33 [0/3306152 (0%)]	Loss: 0.002555
+2022-07-19 03:36:24,797 - main_train_Model.py[line:99] - INFO: Train epoch: 33 [960000/3306152 (29%)]	Loss: 0.003473
+2022-07-19 03:41:21,085 - main_train_Model.py[line:99] - INFO: Train epoch: 33 [1920000/3306152 (58%)]	Loss: 0.003367
+2022-07-19 03:46:17,130 - main_train_Model.py[line:99] - INFO: Train epoch: 33 [2880000/3306152 (87%)]	Loss: 0.003633
+2022-07-19 03:48:28,455 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 03:48:28,456 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 03:50:15,412 - main_train_Model.py[line:359] - INFO: Epoch 33 with EL-AUCROC:IM-AUCROC=0.9930:0.9751
+2022-07-19 03:50:15,413 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 03:50:15,414 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 03:50:16,730 - main_train_Model.py[line:99] - INFO: Train epoch: 34 [0/3306152 (0%)]	Loss: 0.002806
+2022-07-19 03:55:10,969 - main_train_Model.py[line:99] - INFO: Train epoch: 34 [960000/3306152 (29%)]	Loss: 0.003755
+2022-07-19 04:00:07,794 - main_train_Model.py[line:99] - INFO: Train epoch: 34 [1920000/3306152 (58%)]	Loss: 0.003055
+2022-07-19 04:05:05,214 - main_train_Model.py[line:99] - INFO: Train epoch: 34 [2880000/3306152 (87%)]	Loss: 0.002911
+2022-07-19 04:07:14,754 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 04:07:14,755 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 04:09:03,010 - main_train_Model.py[line:359] - INFO: Epoch 34 with EL-AUCROC:IM-AUCROC=0.9930:0.9748
+2022-07-19 04:09:03,010 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 04:09:03,012 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 04:09:04,450 - main_train_Model.py[line:99] - INFO: Train epoch: 35 [0/3306152 (0%)]	Loss: 0.003621
+2022-07-19 04:14:00,517 - main_train_Model.py[line:99] - INFO: Train epoch: 35 [960000/3306152 (29%)]	Loss: 0.003510
+2022-07-19 04:18:58,614 - main_train_Model.py[line:99] - INFO: Train epoch: 35 [1920000/3306152 (58%)]	Loss: 0.004000
+2022-07-19 04:23:57,747 - main_train_Model.py[line:99] - INFO: Train epoch: 35 [2880000/3306152 (87%)]	Loss: 0.003362
+2022-07-19 04:26:04,843 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 04:26:04,844 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 04:27:52,391 - main_train_Model.py[line:359] - INFO: Epoch 35 with EL-AUCROC:IM-AUCROC=0.9930:0.9748
+2022-07-19 04:27:52,392 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 04:27:52,393 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 04:27:53,656 - main_train_Model.py[line:99] - INFO: Train epoch: 36 [0/3306152 (0%)]	Loss: 0.002790
+2022-07-19 04:32:47,394 - main_train_Model.py[line:99] - INFO: Train epoch: 36 [960000/3306152 (29%)]	Loss: 0.003440
+2022-07-19 04:37:49,293 - main_train_Model.py[line:99] - INFO: Train epoch: 36 [1920000/3306152 (58%)]	Loss: 0.003124
+2022-07-19 04:42:45,632 - main_train_Model.py[line:99] - INFO: Train epoch: 36 [2880000/3306152 (87%)]	Loss: 0.003717
+2022-07-19 04:44:56,088 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 04:44:56,088 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 04:46:41,531 - main_train_Model.py[line:359] - INFO: Epoch 36 with EL-AUCROC:IM-AUCROC=0.9930:0.9752
+2022-07-19 04:46:41,532 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 04:46:41,534 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 04:46:42,860 - main_train_Model.py[line:99] - INFO: Train epoch: 37 [0/3306152 (0%)]	Loss: 0.002984
+2022-07-19 04:51:37,161 - main_train_Model.py[line:99] - INFO: Train epoch: 37 [960000/3306152 (29%)]	Loss: 0.002961
+2022-07-19 04:56:32,402 - main_train_Model.py[line:99] - INFO: Train epoch: 37 [1920000/3306152 (58%)]	Loss: 0.002691
+2022-07-19 05:01:26,480 - main_train_Model.py[line:99] - INFO: Train epoch: 37 [2880000/3306152 (87%)]	Loss: 0.003323
+2022-07-19 05:03:37,345 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 05:03:37,346 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 05:05:24,299 - main_train_Model.py[line:359] - INFO: Epoch 37 with EL-AUCROC:IM-AUCROC=0.9930:0.9743
+2022-07-19 05:05:24,300 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 05:05:24,302 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 05:05:25,729 - main_train_Model.py[line:99] - INFO: Train epoch: 38 [0/3306152 (0%)]	Loss: 0.002894
+2022-07-19 05:10:22,107 - main_train_Model.py[line:99] - INFO: Train epoch: 38 [960000/3306152 (29%)]	Loss: 0.002804
+2022-07-19 05:15:18,603 - main_train_Model.py[line:99] - INFO: Train epoch: 38 [1920000/3306152 (58%)]	Loss: 0.003105
+2022-07-19 05:20:16,003 - main_train_Model.py[line:99] - INFO: Train epoch: 38 [2880000/3306152 (87%)]	Loss: 0.004015
+2022-07-19 05:22:25,351 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 05:22:25,352 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 05:24:11,821 - main_train_Model.py[line:359] - INFO: Epoch 38 with EL-AUCROC:IM-AUCROC=0.9929:0.9745
+2022-07-19 05:24:11,821 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 05:24:11,822 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 05:24:13,210 - main_train_Model.py[line:99] - INFO: Train epoch: 39 [0/3306152 (0%)]	Loss: 0.003389
+2022-07-19 05:29:08,946 - main_train_Model.py[line:99] - INFO: Train epoch: 39 [960000/3306152 (29%)]	Loss: 0.003948
+2022-07-19 05:34:04,518 - main_train_Model.py[line:99] - INFO: Train epoch: 39 [1920000/3306152 (58%)]	Loss: 0.002290
+2022-07-19 05:38:58,400 - main_train_Model.py[line:99] - INFO: Train epoch: 39 [2880000/3306152 (87%)]	Loss: 0.002740
+2022-07-19 05:41:10,757 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 05:41:10,758 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 05:42:57,862 - main_train_Model.py[line:359] - INFO: Epoch 39 with EL-AUCROC:IM-AUCROC=0.9930:0.9750
+2022-07-19 05:42:57,862 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 05:42:57,864 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 05:42:59,210 - main_train_Model.py[line:99] - INFO: Train epoch: 40 [0/3306152 (0%)]	Loss: 0.003057
+2022-07-19 05:47:53,417 - main_train_Model.py[line:99] - INFO: Train epoch: 40 [960000/3306152 (29%)]	Loss: 0.003770
+2022-07-19 05:52:47,716 - main_train_Model.py[line:99] - INFO: Train epoch: 40 [1920000/3306152 (58%)]	Loss: 0.003514
+2022-07-19 05:57:42,770 - main_train_Model.py[line:99] - INFO: Train epoch: 40 [2880000/3306152 (87%)]	Loss: 0.002363
+2022-07-19 05:59:52,159 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 05:59:52,160 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 06:01:38,473 - main_train_Model.py[line:359] - INFO: Epoch 40 with EL-AUCROC:IM-AUCROC=0.9929:0.9746
+2022-07-19 06:01:38,473 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 06:01:38,475 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 06:01:39,831 - main_train_Model.py[line:99] - INFO: Train epoch: 41 [0/3306152 (0%)]	Loss: 0.003515
+2022-07-19 06:06:34,053 - main_train_Model.py[line:99] - INFO: Train epoch: 41 [960000/3306152 (29%)]	Loss: 0.002972
+2022-07-19 06:11:28,094 - main_train_Model.py[line:99] - INFO: Train epoch: 41 [1920000/3306152 (58%)]	Loss: 0.003884
+2022-07-19 06:16:23,961 - main_train_Model.py[line:99] - INFO: Train epoch: 41 [2880000/3306152 (87%)]	Loss: 0.003341
+2022-07-19 06:18:34,651 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 06:18:34,651 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 06:20:22,119 - main_train_Model.py[line:359] - INFO: Epoch 41 with EL-AUCROC:IM-AUCROC=0.9928:0.9745
+2022-07-19 06:20:22,119 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 06:20:22,121 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 06:20:23,432 - main_train_Model.py[line:99] - INFO: Train epoch: 42 [0/3306152 (0%)]	Loss: 0.002819
+2022-07-19 06:25:17,045 - main_train_Model.py[line:99] - INFO: Train epoch: 42 [960000/3306152 (29%)]	Loss: 0.002736
+2022-07-19 06:30:11,381 - main_train_Model.py[line:99] - INFO: Train epoch: 42 [1920000/3306152 (58%)]	Loss: 0.003282
+2022-07-19 06:35:07,970 - main_train_Model.py[line:99] - INFO: Train epoch: 42 [2880000/3306152 (87%)]	Loss: 0.003433
+2022-07-19 06:37:21,019 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 06:37:21,020 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 06:39:08,680 - main_train_Model.py[line:359] - INFO: Epoch 42 with EL-AUCROC:IM-AUCROC=0.9929:0.9747
+2022-07-19 06:39:08,680 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 06:39:08,682 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 06:39:10,067 - main_train_Model.py[line:99] - INFO: Train epoch: 43 [0/3306152 (0%)]	Loss: 0.003598
+2022-07-19 06:43:56,236 - main_train_Model.py[line:99] - INFO: Train epoch: 43 [960000/3306152 (29%)]	Loss: 0.002414
+2022-07-19 06:48:56,562 - main_train_Model.py[line:99] - INFO: Train epoch: 43 [1920000/3306152 (58%)]	Loss: 0.002669
+2022-07-19 06:53:50,501 - main_train_Model.py[line:99] - INFO: Train epoch: 43 [2880000/3306152 (87%)]	Loss: 0.003602
+2022-07-19 06:56:00,157 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 06:56:00,158 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 06:57:47,645 - main_train_Model.py[line:359] - INFO: Epoch 43 with EL-AUCROC:IM-AUCROC=0.9928:0.9742
+2022-07-19 06:57:47,645 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 06:57:47,648 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 06:57:49,170 - main_train_Model.py[line:99] - INFO: Train epoch: 44 [0/3306152 (0%)]	Loss: 0.003545
+2022-07-19 07:02:39,625 - main_train_Model.py[line:99] - INFO: Train epoch: 44 [960000/3306152 (29%)]	Loss: 0.003087
+2022-07-19 07:07:32,878 - main_train_Model.py[line:99] - INFO: Train epoch: 44 [1920000/3306152 (58%)]	Loss: 0.003231
+2022-07-19 07:12:25,621 - main_train_Model.py[line:99] - INFO: Train epoch: 44 [2880000/3306152 (87%)]	Loss: 0.002834
+2022-07-19 07:14:34,841 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 07:14:34,842 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 07:16:22,058 - main_train_Model.py[line:359] - INFO: Epoch 44 with EL-AUCROC:IM-AUCROC=0.9929:0.9746
+2022-07-19 07:16:22,058 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 07:16:22,060 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 07:16:23,479 - main_train_Model.py[line:99] - INFO: Train epoch: 45 [0/3306152 (0%)]	Loss: 0.003528
+2022-07-19 07:21:17,404 - main_train_Model.py[line:99] - INFO: Train epoch: 45 [960000/3306152 (29%)]	Loss: 0.003628
+2022-07-19 07:26:11,550 - main_train_Model.py[line:99] - INFO: Train epoch: 45 [1920000/3306152 (58%)]	Loss: 0.003143
+2022-07-19 07:31:05,713 - main_train_Model.py[line:99] - INFO: Train epoch: 45 [2880000/3306152 (87%)]	Loss: 0.003018
+2022-07-19 07:33:16,143 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 07:33:16,144 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 07:35:03,380 - main_train_Model.py[line:359] - INFO: Epoch 45 with EL-AUCROC:IM-AUCROC=0.9929:0.9750
+2022-07-19 07:35:03,380 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 07:35:03,382 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 07:35:04,746 - main_train_Model.py[line:99] - INFO: Train epoch: 46 [0/3306152 (0%)]	Loss: 0.003124
+2022-07-19 07:39:58,489 - main_train_Model.py[line:99] - INFO: Train epoch: 46 [960000/3306152 (29%)]	Loss: 0.003362
+2022-07-19 07:44:52,569 - main_train_Model.py[line:99] - INFO: Train epoch: 46 [1920000/3306152 (58%)]	Loss: 0.003368
+2022-07-19 07:49:45,822 - main_train_Model.py[line:99] - INFO: Train epoch: 46 [2880000/3306152 (87%)]	Loss: 0.002782
+2022-07-19 07:51:55,614 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 07:51:55,615 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 07:53:42,409 - main_train_Model.py[line:359] - INFO: Epoch 46 with EL-AUCROC:IM-AUCROC=0.9929:0.9743
+2022-07-19 07:53:42,409 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 07:53:42,410 - main_train_Model.py[line:59] - INFO: Training on 3306152 samples...
+2022-07-19 07:53:43,830 - main_train_Model.py[line:99] - INFO: Train epoch: 47 [0/3306152 (0%)]	Loss: 0.003023
+2022-07-19 07:58:35,168 - main_train_Model.py[line:99] - INFO: Train epoch: 47 [960000/3306152 (29%)]	Loss: 0.002821
+2022-07-19 08:03:34,881 - main_train_Model.py[line:99] - INFO: Train epoch: 47 [1920000/3306152 (58%)]	Loss: 0.002950
+2022-07-19 08:08:34,768 - main_train_Model.py[line:99] - INFO: Train epoch: 47 [2880000/3306152 (87%)]	Loss: 0.002945
+2022-07-19 08:10:47,231 - main_train_Model.py[line:353] - INFO: predicting for valid data
+2022-07-19 08:10:47,232 - main_train_Model.py[line:110] - INFO: Make prediction for 826537 samples...
+2022-07-19 08:12:33,883 - main_train_Model.py[line:359] - INFO: Epoch 47 with EL-AUCROC:IM-AUCROC=0.9928:0.9749
+2022-07-19 08:12:33,883 - main_train_Model.py[line:385] - INFO: BestEpoch=20,27; BestResult=0.9932,0.9760 with EL-AUCROC,IM-AUCROC in turn.
+2022-07-19 08:12:33,885 - main_train_Model.py[line:410] - INFO: Early Stop.

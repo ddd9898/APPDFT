@@ -1,0 +1,433 @@
+2022-07-19 17:39:52,821 - main_train_baseline.py[line:240] - INFO: Load pretrained model!
+2022-07-19 17:39:52,837 - main_train_baseline.py[line:289] - INFO: Starting training:
+    Epochs:          200
+    Batch size:      3200
+    Learning rate:   0.0001
+    Training size:   3280922
+    Validation size: 820230
+    Device:          cuda
+    
+2022-07-19 17:39:52,837 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 17:39:54,310 - main_train_baseline.py[line:84] - INFO: Train epoch: 0 [0/3280922 (0%)]	Loss: 0.038030
+2022-07-19 17:44:36,678 - main_train_baseline.py[line:84] - INFO: Train epoch: 0 [960000/3280922 (29%)]	Loss: 0.006532
+2022-07-19 17:49:21,228 - main_train_baseline.py[line:84] - INFO: Train epoch: 0 [1920000/3280922 (58%)]	Loss: 0.005361
+2022-07-19 17:54:04,707 - main_train_baseline.py[line:84] - INFO: Train epoch: 0 [2880000/3280922 (88%)]	Loss: 0.005896
+2022-07-19 17:56:02,457 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 17:56:02,458 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 17:57:38,327 - main_train_baseline.py[line:306] - INFO: Epoch 0 with AUCROC:AUCPR=0.9864:0.9066
+2022-07-19 17:57:38,338 - main_train_baseline.py[line:322] - INFO: BestEpoch=0; BestResult=0.9864 with AUCROC.
+2022-07-19 17:57:38,339 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 17:57:39,602 - main_train_baseline.py[line:84] - INFO: Train epoch: 1 [0/3280922 (0%)]	Loss: 0.004948
+2022-07-19 18:02:23,267 - main_train_baseline.py[line:84] - INFO: Train epoch: 1 [960000/3280922 (29%)]	Loss: 0.005794
+2022-07-19 18:07:07,277 - main_train_baseline.py[line:84] - INFO: Train epoch: 1 [1920000/3280922 (58%)]	Loss: 0.006133
+2022-07-19 18:11:51,673 - main_train_baseline.py[line:84] - INFO: Train epoch: 1 [2880000/3280922 (88%)]	Loss: 0.004150
+2022-07-19 18:13:49,279 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 18:13:49,280 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 18:15:23,509 - main_train_baseline.py[line:306] - INFO: Epoch 1 with AUCROC:AUCPR=0.9890:0.9180
+2022-07-19 18:15:23,522 - main_train_baseline.py[line:322] - INFO: BestEpoch=1; BestResult=0.9890 with AUCROC.
+2022-07-19 18:15:23,522 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 18:15:24,815 - main_train_baseline.py[line:84] - INFO: Train epoch: 2 [0/3280922 (0%)]	Loss: 0.004857
+2022-07-19 18:20:16,402 - main_train_baseline.py[line:84] - INFO: Train epoch: 2 [960000/3280922 (29%)]	Loss: 0.004619
+2022-07-19 18:25:01,935 - main_train_baseline.py[line:84] - INFO: Train epoch: 2 [1920000/3280922 (58%)]	Loss: 0.005444
+2022-07-19 18:29:45,916 - main_train_baseline.py[line:84] - INFO: Train epoch: 2 [2880000/3280922 (88%)]	Loss: 0.005163
+2022-07-19 18:31:43,833 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 18:31:43,834 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 18:33:18,260 - main_train_baseline.py[line:306] - INFO: Epoch 2 with AUCROC:AUCPR=0.9903:0.9250
+2022-07-19 18:33:18,273 - main_train_baseline.py[line:322] - INFO: BestEpoch=2; BestResult=0.9903 with AUCROC.
+2022-07-19 18:33:18,274 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 18:33:19,586 - main_train_baseline.py[line:84] - INFO: Train epoch: 3 [0/3280922 (0%)]	Loss: 0.004278
+2022-07-19 18:38:05,290 - main_train_baseline.py[line:84] - INFO: Train epoch: 3 [960000/3280922 (29%)]	Loss: 0.004874
+2022-07-19 18:42:49,036 - main_train_baseline.py[line:84] - INFO: Train epoch: 3 [1920000/3280922 (58%)]	Loss: 0.004847
+2022-07-19 18:47:32,559 - main_train_baseline.py[line:84] - INFO: Train epoch: 3 [2880000/3280922 (88%)]	Loss: 0.005176
+2022-07-19 18:49:30,462 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 18:49:30,463 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 18:51:04,835 - main_train_baseline.py[line:306] - INFO: Epoch 3 with AUCROC:AUCPR=0.9907:0.9273
+2022-07-19 18:51:04,847 - main_train_baseline.py[line:322] - INFO: BestEpoch=3; BestResult=0.9907 with AUCROC.
+2022-07-19 18:51:04,848 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 18:51:06,211 - main_train_baseline.py[line:84] - INFO: Train epoch: 4 [0/3280922 (0%)]	Loss: 0.004721
+2022-07-19 18:55:49,745 - main_train_baseline.py[line:84] - INFO: Train epoch: 4 [960000/3280922 (29%)]	Loss: 0.004495
+2022-07-19 19:00:33,997 - main_train_baseline.py[line:84] - INFO: Train epoch: 4 [1920000/3280922 (58%)]	Loss: 0.003819
+2022-07-19 19:05:16,821 - main_train_baseline.py[line:84] - INFO: Train epoch: 4 [2880000/3280922 (88%)]	Loss: 0.003873
+2022-07-19 19:07:14,448 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 19:07:14,449 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 19:08:48,912 - main_train_baseline.py[line:306] - INFO: Epoch 4 with AUCROC:AUCPR=0.9913:0.9309
+2022-07-19 19:08:48,925 - main_train_baseline.py[line:322] - INFO: BestEpoch=4; BestResult=0.9913 with AUCROC.
+2022-07-19 19:08:48,926 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 19:08:50,179 - main_train_baseline.py[line:84] - INFO: Train epoch: 5 [0/3280922 (0%)]	Loss: 0.004483
+2022-07-19 19:13:33,234 - main_train_baseline.py[line:84] - INFO: Train epoch: 5 [960000/3280922 (29%)]	Loss: 0.004742
+2022-07-19 19:18:16,459 - main_train_baseline.py[line:84] - INFO: Train epoch: 5 [1920000/3280922 (58%)]	Loss: 0.004899
+2022-07-19 19:23:00,817 - main_train_baseline.py[line:84] - INFO: Train epoch: 5 [2880000/3280922 (88%)]	Loss: 0.003610
+2022-07-19 19:24:58,571 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 19:24:58,572 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 19:26:32,414 - main_train_baseline.py[line:306] - INFO: Epoch 5 with AUCROC:AUCPR=0.9918:0.9349
+2022-07-19 19:26:32,427 - main_train_baseline.py[line:322] - INFO: BestEpoch=5; BestResult=0.9918 with AUCROC.
+2022-07-19 19:26:32,428 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 19:26:34,882 - main_train_baseline.py[line:84] - INFO: Train epoch: 6 [0/3280922 (0%)]	Loss: 0.004373
+2022-07-19 19:31:18,254 - main_train_baseline.py[line:84] - INFO: Train epoch: 6 [960000/3280922 (29%)]	Loss: 0.005243
+2022-07-19 19:36:01,488 - main_train_baseline.py[line:84] - INFO: Train epoch: 6 [1920000/3280922 (58%)]	Loss: 0.004747
+2022-07-19 19:40:44,728 - main_train_baseline.py[line:84] - INFO: Train epoch: 6 [2880000/3280922 (88%)]	Loss: 0.003964
+2022-07-19 19:42:42,293 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 19:42:42,294 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 19:44:16,994 - main_train_baseline.py[line:306] - INFO: Epoch 6 with AUCROC:AUCPR=0.9921:0.9350
+2022-07-19 19:44:17,007 - main_train_baseline.py[line:322] - INFO: BestEpoch=6; BestResult=0.9921 with AUCROC.
+2022-07-19 19:44:17,007 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 19:44:18,301 - main_train_baseline.py[line:84] - INFO: Train epoch: 7 [0/3280922 (0%)]	Loss: 0.003566
+2022-07-19 19:48:56,815 - main_train_baseline.py[line:84] - INFO: Train epoch: 7 [960000/3280922 (29%)]	Loss: 0.005823
+2022-07-19 19:53:42,116 - main_train_baseline.py[line:84] - INFO: Train epoch: 7 [1920000/3280922 (58%)]	Loss: 0.003922
+2022-07-19 19:58:26,151 - main_train_baseline.py[line:84] - INFO: Train epoch: 7 [2880000/3280922 (88%)]	Loss: 0.004407
+2022-07-19 20:00:23,731 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 20:00:23,733 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 20:01:58,649 - main_train_baseline.py[line:306] - INFO: Epoch 7 with AUCROC:AUCPR=0.9925:0.9380
+2022-07-19 20:01:58,661 - main_train_baseline.py[line:322] - INFO: BestEpoch=7; BestResult=0.9925 with AUCROC.
+2022-07-19 20:01:58,662 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 20:02:00,000 - main_train_baseline.py[line:84] - INFO: Train epoch: 8 [0/3280922 (0%)]	Loss: 0.003329
+2022-07-19 20:06:44,246 - main_train_baseline.py[line:84] - INFO: Train epoch: 8 [960000/3280922 (29%)]	Loss: 0.005207
+2022-07-19 20:11:27,778 - main_train_baseline.py[line:84] - INFO: Train epoch: 8 [1920000/3280922 (58%)]	Loss: 0.004452
+2022-07-19 20:16:12,592 - main_train_baseline.py[line:84] - INFO: Train epoch: 8 [2880000/3280922 (88%)]	Loss: 0.003998
+2022-07-19 20:18:10,349 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 20:18:10,350 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 20:19:45,652 - main_train_baseline.py[line:306] - INFO: Epoch 8 with AUCROC:AUCPR=0.9921:0.9355
+2022-07-19 20:19:45,652 - main_train_baseline.py[line:322] - INFO: BestEpoch=7; BestResult=0.9925 with AUCROC.
+2022-07-19 20:19:45,652 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 20:19:46,947 - main_train_baseline.py[line:84] - INFO: Train epoch: 9 [0/3280922 (0%)]	Loss: 0.004208
+2022-07-19 20:24:26,505 - main_train_baseline.py[line:84] - INFO: Train epoch: 9 [960000/3280922 (29%)]	Loss: 0.003518
+2022-07-19 20:28:56,434 - main_train_baseline.py[line:84] - INFO: Train epoch: 9 [1920000/3280922 (58%)]	Loss: 0.004035
+2022-07-19 20:33:38,957 - main_train_baseline.py[line:84] - INFO: Train epoch: 9 [2880000/3280922 (88%)]	Loss: 0.003552
+2022-07-19 20:35:36,787 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 20:35:36,788 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 20:37:12,775 - main_train_baseline.py[line:306] - INFO: Epoch 9 with AUCROC:AUCPR=0.9924:0.9375
+2022-07-19 20:37:12,776 - main_train_baseline.py[line:322] - INFO: BestEpoch=7; BestResult=0.9925 with AUCROC.
+2022-07-19 20:37:12,776 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 20:37:14,173 - main_train_baseline.py[line:84] - INFO: Train epoch: 10 [0/3280922 (0%)]	Loss: 0.004017
+2022-07-19 20:41:57,258 - main_train_baseline.py[line:84] - INFO: Train epoch: 10 [960000/3280922 (29%)]	Loss: 0.003504
+2022-07-19 20:46:41,907 - main_train_baseline.py[line:84] - INFO: Train epoch: 10 [1920000/3280922 (58%)]	Loss: 0.004087
+2022-07-19 20:51:19,524 - main_train_baseline.py[line:84] - INFO: Train epoch: 10 [2880000/3280922 (88%)]	Loss: 0.003528
+2022-07-19 20:53:11,668 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 20:53:11,669 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 20:54:46,269 - main_train_baseline.py[line:306] - INFO: Epoch 10 with AUCROC:AUCPR=0.9925:0.9376
+2022-07-19 20:54:46,282 - main_train_baseline.py[line:322] - INFO: BestEpoch=10; BestResult=0.9925 with AUCROC.
+2022-07-19 20:54:46,282 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 20:54:47,670 - main_train_baseline.py[line:84] - INFO: Train epoch: 11 [0/3280922 (0%)]	Loss: 0.003442
+2022-07-19 20:59:33,564 - main_train_baseline.py[line:84] - INFO: Train epoch: 11 [960000/3280922 (29%)]	Loss: 0.003513
+2022-07-19 21:04:17,034 - main_train_baseline.py[line:84] - INFO: Train epoch: 11 [1920000/3280922 (58%)]	Loss: 0.003370
+2022-07-19 21:09:01,491 - main_train_baseline.py[line:84] - INFO: Train epoch: 11 [2880000/3280922 (88%)]	Loss: 0.004314
+2022-07-19 21:10:58,988 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 21:10:58,989 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 21:12:33,224 - main_train_baseline.py[line:306] - INFO: Epoch 11 with AUCROC:AUCPR=0.9928:0.9396
+2022-07-19 21:12:33,237 - main_train_baseline.py[line:322] - INFO: BestEpoch=11; BestResult=0.9928 with AUCROC.
+2022-07-19 21:12:33,237 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 21:12:34,581 - main_train_baseline.py[line:84] - INFO: Train epoch: 12 [0/3280922 (0%)]	Loss: 0.003622
+2022-07-19 21:17:18,255 - main_train_baseline.py[line:84] - INFO: Train epoch: 12 [960000/3280922 (29%)]	Loss: 0.003901
+2022-07-19 21:22:01,721 - main_train_baseline.py[line:84] - INFO: Train epoch: 12 [1920000/3280922 (58%)]	Loss: 0.004048
+2022-07-19 21:26:45,264 - main_train_baseline.py[line:84] - INFO: Train epoch: 12 [2880000/3280922 (88%)]	Loss: 0.002848
+2022-07-19 21:28:41,225 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 21:28:41,226 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 21:30:15,923 - main_train_baseline.py[line:306] - INFO: Epoch 12 with AUCROC:AUCPR=0.9928:0.9402
+2022-07-19 21:30:15,935 - main_train_baseline.py[line:322] - INFO: BestEpoch=12; BestResult=0.9928 with AUCROC.
+2022-07-19 21:30:15,936 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 21:30:17,258 - main_train_baseline.py[line:84] - INFO: Train epoch: 13 [0/3280922 (0%)]	Loss: 0.002981
+2022-07-19 21:35:01,454 - main_train_baseline.py[line:84] - INFO: Train epoch: 13 [960000/3280922 (29%)]	Loss: 0.003743
+2022-07-19 21:39:44,497 - main_train_baseline.py[line:84] - INFO: Train epoch: 13 [1920000/3280922 (58%)]	Loss: 0.004302
+2022-07-19 21:44:27,369 - main_train_baseline.py[line:84] - INFO: Train epoch: 13 [2880000/3280922 (88%)]	Loss: 0.003968
+2022-07-19 21:46:24,800 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 21:46:24,800 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 21:47:59,674 - main_train_baseline.py[line:306] - INFO: Epoch 13 with AUCROC:AUCPR=0.9930:0.9408
+2022-07-19 21:47:59,687 - main_train_baseline.py[line:322] - INFO: BestEpoch=13; BestResult=0.9930 with AUCROC.
+2022-07-19 21:47:59,687 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 21:48:00,941 - main_train_baseline.py[line:84] - INFO: Train epoch: 14 [0/3280922 (0%)]	Loss: 0.003737
+2022-07-19 21:52:43,796 - main_train_baseline.py[line:84] - INFO: Train epoch: 14 [960000/3280922 (29%)]	Loss: 0.003362
+2022-07-19 21:57:29,245 - main_train_baseline.py[line:84] - INFO: Train epoch: 14 [1920000/3280922 (58%)]	Loss: 0.003918
+2022-07-19 22:02:12,394 - main_train_baseline.py[line:84] - INFO: Train epoch: 14 [2880000/3280922 (88%)]	Loss: 0.003825
+2022-07-19 22:04:09,980 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 22:04:09,981 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 22:05:46,456 - main_train_baseline.py[line:306] - INFO: Epoch 14 with AUCROC:AUCPR=0.9928:0.9397
+2022-07-19 22:05:46,456 - main_train_baseline.py[line:322] - INFO: BestEpoch=13; BestResult=0.9930 with AUCROC.
+2022-07-19 22:05:46,457 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 22:05:47,834 - main_train_baseline.py[line:84] - INFO: Train epoch: 15 [0/3280922 (0%)]	Loss: 0.003092
+2022-07-19 22:10:32,947 - main_train_baseline.py[line:84] - INFO: Train epoch: 15 [960000/3280922 (29%)]	Loss: 0.003646
+2022-07-19 22:15:15,961 - main_train_baseline.py[line:84] - INFO: Train epoch: 15 [1920000/3280922 (58%)]	Loss: 0.004277
+2022-07-19 22:20:00,579 - main_train_baseline.py[line:84] - INFO: Train epoch: 15 [2880000/3280922 (88%)]	Loss: 0.003452
+2022-07-19 22:21:58,252 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 22:21:58,253 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 22:23:32,022 - main_train_baseline.py[line:306] - INFO: Epoch 15 with AUCROC:AUCPR=0.9930:0.9405
+2022-07-19 22:23:32,022 - main_train_baseline.py[line:322] - INFO: BestEpoch=13; BestResult=0.9930 with AUCROC.
+2022-07-19 22:23:32,023 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 22:23:34,623 - main_train_baseline.py[line:84] - INFO: Train epoch: 16 [0/3280922 (0%)]	Loss: 0.003400
+2022-07-19 22:28:10,627 - main_train_baseline.py[line:84] - INFO: Train epoch: 16 [960000/3280922 (29%)]	Loss: 0.003535
+2022-07-19 22:32:56,826 - main_train_baseline.py[line:84] - INFO: Train epoch: 16 [1920000/3280922 (58%)]	Loss: 0.003836
+2022-07-19 22:37:46,792 - main_train_baseline.py[line:84] - INFO: Train epoch: 16 [2880000/3280922 (88%)]	Loss: 0.002940
+2022-07-19 22:39:47,175 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 22:39:47,176 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 22:41:23,170 - main_train_baseline.py[line:306] - INFO: Epoch 16 with AUCROC:AUCPR=0.9931:0.9417
+2022-07-19 22:41:23,182 - main_train_baseline.py[line:322] - INFO: BestEpoch=16; BestResult=0.9931 with AUCROC.
+2022-07-19 22:41:23,183 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 22:41:24,514 - main_train_baseline.py[line:84] - INFO: Train epoch: 17 [0/3280922 (0%)]	Loss: 0.003296
+2022-07-19 22:46:07,389 - main_train_baseline.py[line:84] - INFO: Train epoch: 17 [960000/3280922 (29%)]	Loss: 0.003508
+2022-07-19 22:50:51,853 - main_train_baseline.py[line:84] - INFO: Train epoch: 17 [1920000/3280922 (58%)]	Loss: 0.004378
+2022-07-19 22:55:35,072 - main_train_baseline.py[line:84] - INFO: Train epoch: 17 [2880000/3280922 (88%)]	Loss: 0.003947
+2022-07-19 22:57:32,767 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 22:57:32,768 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 22:59:07,257 - main_train_baseline.py[line:306] - INFO: Epoch 17 with AUCROC:AUCPR=0.9932:0.9422
+2022-07-19 22:59:07,270 - main_train_baseline.py[line:322] - INFO: BestEpoch=17; BestResult=0.9932 with AUCROC.
+2022-07-19 22:59:07,271 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 22:59:08,515 - main_train_baseline.py[line:84] - INFO: Train epoch: 18 [0/3280922 (0%)]	Loss: 0.002655
+2022-07-19 23:03:51,362 - main_train_baseline.py[line:84] - INFO: Train epoch: 18 [960000/3280922 (29%)]	Loss: 0.003384
+2022-07-19 23:08:34,633 - main_train_baseline.py[line:84] - INFO: Train epoch: 18 [1920000/3280922 (58%)]	Loss: 0.003607
+2022-07-19 23:13:19,404 - main_train_baseline.py[line:84] - INFO: Train epoch: 18 [2880000/3280922 (88%)]	Loss: 0.003238
+2022-07-19 23:15:16,926 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 23:15:16,927 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 23:16:51,550 - main_train_baseline.py[line:306] - INFO: Epoch 18 with AUCROC:AUCPR=0.9931:0.9412
+2022-07-19 23:16:51,551 - main_train_baseline.py[line:322] - INFO: BestEpoch=17; BestResult=0.9932 with AUCROC.
+2022-07-19 23:16:51,551 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 23:16:52,926 - main_train_baseline.py[line:84] - INFO: Train epoch: 19 [0/3280922 (0%)]	Loss: 0.003242
+2022-07-19 23:21:35,852 - main_train_baseline.py[line:84] - INFO: Train epoch: 19 [960000/3280922 (29%)]	Loss: 0.002645
+2022-07-19 23:26:18,871 - main_train_baseline.py[line:84] - INFO: Train epoch: 19 [1920000/3280922 (58%)]	Loss: 0.003255
+2022-07-19 23:31:01,756 - main_train_baseline.py[line:84] - INFO: Train epoch: 19 [2880000/3280922 (88%)]	Loss: 0.004549
+2022-07-19 23:32:59,177 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 23:32:59,178 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 23:34:33,535 - main_train_baseline.py[line:306] - INFO: Epoch 19 with AUCROC:AUCPR=0.9932:0.9424
+2022-07-19 23:34:33,535 - main_train_baseline.py[line:322] - INFO: BestEpoch=17; BestResult=0.9932 with AUCROC.
+2022-07-19 23:34:33,536 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 23:34:34,831 - main_train_baseline.py[line:84] - INFO: Train epoch: 20 [0/3280922 (0%)]	Loss: 0.003225
+2022-07-19 23:39:17,798 - main_train_baseline.py[line:84] - INFO: Train epoch: 20 [960000/3280922 (29%)]	Loss: 0.002754
+2022-07-19 23:44:02,812 - main_train_baseline.py[line:84] - INFO: Train epoch: 20 [1920000/3280922 (58%)]	Loss: 0.002980
+2022-07-19 23:48:45,936 - main_train_baseline.py[line:84] - INFO: Train epoch: 20 [2880000/3280922 (88%)]	Loss: 0.002998
+2022-07-19 23:50:43,433 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-19 23:50:43,434 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-19 23:52:18,308 - main_train_baseline.py[line:306] - INFO: Epoch 20 with AUCROC:AUCPR=0.9936:0.9453
+2022-07-19 23:52:18,320 - main_train_baseline.py[line:322] - INFO: BestEpoch=20; BestResult=0.9936 with AUCROC.
+2022-07-19 23:52:18,321 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-19 23:52:19,600 - main_train_baseline.py[line:84] - INFO: Train epoch: 21 [0/3280922 (0%)]	Loss: 0.002839
+2022-07-19 23:57:02,918 - main_train_baseline.py[line:84] - INFO: Train epoch: 21 [960000/3280922 (29%)]	Loss: 0.003412
+2022-07-20 00:01:46,153 - main_train_baseline.py[line:84] - INFO: Train epoch: 21 [1920000/3280922 (58%)]	Loss: 0.002959
+2022-07-20 00:06:30,158 - main_train_baseline.py[line:84] - INFO: Train epoch: 21 [2880000/3280922 (88%)]	Loss: 0.003154
+2022-07-20 00:08:27,669 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 00:08:27,670 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 00:10:01,803 - main_train_baseline.py[line:306] - INFO: Epoch 21 with AUCROC:AUCPR=0.9936:0.9455
+2022-07-20 00:10:01,818 - main_train_baseline.py[line:322] - INFO: BestEpoch=21; BestResult=0.9936 with AUCROC.
+2022-07-20 00:10:01,818 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 00:10:03,133 - main_train_baseline.py[line:84] - INFO: Train epoch: 22 [0/3280922 (0%)]	Loss: 0.002635
+2022-07-20 00:14:46,372 - main_train_baseline.py[line:84] - INFO: Train epoch: 22 [960000/3280922 (29%)]	Loss: 0.003597
+2022-07-20 00:19:30,234 - main_train_baseline.py[line:84] - INFO: Train epoch: 22 [1920000/3280922 (58%)]	Loss: 0.004266
+2022-07-20 00:24:15,819 - main_train_baseline.py[line:84] - INFO: Train epoch: 22 [2880000/3280922 (88%)]	Loss: 0.002769
+2022-07-20 00:26:13,326 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 00:26:13,326 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 00:27:48,232 - main_train_baseline.py[line:306] - INFO: Epoch 22 with AUCROC:AUCPR=0.9936:0.9455
+2022-07-20 00:27:48,232 - main_train_baseline.py[line:322] - INFO: BestEpoch=21; BestResult=0.9936 with AUCROC.
+2022-07-20 00:27:48,233 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 00:27:49,554 - main_train_baseline.py[line:84] - INFO: Train epoch: 23 [0/3280922 (0%)]	Loss: 0.003679
+2022-07-20 00:32:34,055 - main_train_baseline.py[line:84] - INFO: Train epoch: 23 [960000/3280922 (29%)]	Loss: 0.002047
+2022-07-20 00:37:17,201 - main_train_baseline.py[line:84] - INFO: Train epoch: 23 [1920000/3280922 (58%)]	Loss: 0.003254
+2022-07-20 00:42:00,302 - main_train_baseline.py[line:84] - INFO: Train epoch: 23 [2880000/3280922 (88%)]	Loss: 0.003173
+2022-07-20 00:43:57,758 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 00:43:57,759 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 00:45:32,147 - main_train_baseline.py[line:306] - INFO: Epoch 23 with AUCROC:AUCPR=0.9936:0.9453
+2022-07-20 00:45:32,147 - main_train_baseline.py[line:322] - INFO: BestEpoch=21; BestResult=0.9936 with AUCROC.
+2022-07-20 00:45:32,148 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 00:45:33,462 - main_train_baseline.py[line:84] - INFO: Train epoch: 24 [0/3280922 (0%)]	Loss: 0.003657
+2022-07-20 00:50:17,788 - main_train_baseline.py[line:84] - INFO: Train epoch: 24 [960000/3280922 (29%)]	Loss: 0.002959
+2022-07-20 00:55:02,508 - main_train_baseline.py[line:84] - INFO: Train epoch: 24 [1920000/3280922 (58%)]	Loss: 0.002659
+2022-07-20 00:59:46,104 - main_train_baseline.py[line:84] - INFO: Train epoch: 24 [2880000/3280922 (88%)]	Loss: 0.002455
+2022-07-20 01:01:43,746 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 01:01:43,747 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 01:03:18,658 - main_train_baseline.py[line:306] - INFO: Epoch 24 with AUCROC:AUCPR=0.9935:0.9453
+2022-07-20 01:03:18,658 - main_train_baseline.py[line:322] - INFO: BestEpoch=21; BestResult=0.9936 with AUCROC.
+2022-07-20 01:03:18,659 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 01:03:19,947 - main_train_baseline.py[line:84] - INFO: Train epoch: 25 [0/3280922 (0%)]	Loss: 0.003167
+2022-07-20 01:08:03,054 - main_train_baseline.py[line:84] - INFO: Train epoch: 25 [960000/3280922 (29%)]	Loss: 0.002950
+2022-07-20 01:12:46,032 - main_train_baseline.py[line:84] - INFO: Train epoch: 25 [1920000/3280922 (58%)]	Loss: 0.003318
+2022-07-20 01:17:26,840 - main_train_baseline.py[line:84] - INFO: Train epoch: 25 [2880000/3280922 (88%)]	Loss: 0.003451
+2022-07-20 01:19:25,322 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 01:19:25,323 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 01:20:58,733 - main_train_baseline.py[line:306] - INFO: Epoch 25 with AUCROC:AUCPR=0.9935:0.9452
+2022-07-20 01:20:58,733 - main_train_baseline.py[line:322] - INFO: BestEpoch=21; BestResult=0.9936 with AUCROC.
+2022-07-20 01:20:58,734 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 01:21:01,129 - main_train_baseline.py[line:84] - INFO: Train epoch: 26 [0/3280922 (0%)]	Loss: 0.003600
+2022-07-20 01:25:44,531 - main_train_baseline.py[line:84] - INFO: Train epoch: 26 [960000/3280922 (29%)]	Loss: 0.002854
+2022-07-20 01:30:27,511 - main_train_baseline.py[line:84] - INFO: Train epoch: 26 [1920000/3280922 (58%)]	Loss: 0.003931
+2022-07-20 01:35:10,273 - main_train_baseline.py[line:84] - INFO: Train epoch: 26 [2880000/3280922 (88%)]	Loss: 0.003321
+2022-07-20 01:37:07,758 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 01:37:07,759 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 01:38:42,607 - main_train_baseline.py[line:306] - INFO: Epoch 26 with AUCROC:AUCPR=0.9936:0.9455
+2022-07-20 01:38:42,620 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 01:38:42,621 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 01:38:43,911 - main_train_baseline.py[line:84] - INFO: Train epoch: 27 [0/3280922 (0%)]	Loss: 0.002588
+2022-07-20 01:43:13,320 - main_train_baseline.py[line:84] - INFO: Train epoch: 27 [960000/3280922 (29%)]	Loss: 0.002353
+2022-07-20 01:47:43,874 - main_train_baseline.py[line:84] - INFO: Train epoch: 27 [1920000/3280922 (58%)]	Loss: 0.002641
+2022-07-20 01:52:19,274 - main_train_baseline.py[line:84] - INFO: Train epoch: 27 [2880000/3280922 (88%)]	Loss: 0.002488
+2022-07-20 01:54:16,831 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 01:54:16,832 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 01:55:52,391 - main_train_baseline.py[line:306] - INFO: Epoch 27 with AUCROC:AUCPR=0.9936:0.9453
+2022-07-20 01:55:52,391 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 01:55:52,391 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 01:55:53,701 - main_train_baseline.py[line:84] - INFO: Train epoch: 28 [0/3280922 (0%)]	Loss: 0.003359
+2022-07-20 02:00:36,761 - main_train_baseline.py[line:84] - INFO: Train epoch: 28 [960000/3280922 (29%)]	Loss: 0.003252
+2022-07-20 02:05:19,982 - main_train_baseline.py[line:84] - INFO: Train epoch: 28 [1920000/3280922 (58%)]	Loss: 0.002677
+2022-07-20 02:10:04,134 - main_train_baseline.py[line:84] - INFO: Train epoch: 28 [2880000/3280922 (88%)]	Loss: 0.003051
+2022-07-20 02:12:01,897 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 02:12:01,898 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 02:13:37,234 - main_train_baseline.py[line:306] - INFO: Epoch 28 with AUCROC:AUCPR=0.9935:0.9452
+2022-07-20 02:13:37,235 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 02:13:37,235 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 02:13:38,585 - main_train_baseline.py[line:84] - INFO: Train epoch: 29 [0/3280922 (0%)]	Loss: 0.003259
+2022-07-20 02:18:22,111 - main_train_baseline.py[line:84] - INFO: Train epoch: 29 [960000/3280922 (29%)]	Loss: 0.003407
+2022-07-20 02:23:05,739 - main_train_baseline.py[line:84] - INFO: Train epoch: 29 [1920000/3280922 (58%)]	Loss: 0.002608
+2022-07-20 02:27:49,199 - main_train_baseline.py[line:84] - INFO: Train epoch: 29 [2880000/3280922 (88%)]	Loss: 0.003662
+2022-07-20 02:29:47,341 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 02:29:47,342 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 02:31:23,657 - main_train_baseline.py[line:306] - INFO: Epoch 29 with AUCROC:AUCPR=0.9935:0.9451
+2022-07-20 02:31:23,657 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 02:31:23,658 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 02:31:24,973 - main_train_baseline.py[line:84] - INFO: Train epoch: 30 [0/3280922 (0%)]	Loss: 0.003184
+2022-07-20 02:36:10,100 - main_train_baseline.py[line:84] - INFO: Train epoch: 30 [960000/3280922 (29%)]	Loss: 0.002584
+2022-07-20 02:41:01,228 - main_train_baseline.py[line:84] - INFO: Train epoch: 30 [1920000/3280922 (58%)]	Loss: 0.003371
+2022-07-20 02:45:48,833 - main_train_baseline.py[line:84] - INFO: Train epoch: 30 [2880000/3280922 (88%)]	Loss: 0.002677
+2022-07-20 02:47:46,636 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 02:47:46,637 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 02:49:22,537 - main_train_baseline.py[line:306] - INFO: Epoch 30 with AUCROC:AUCPR=0.9935:0.9450
+2022-07-20 02:49:22,538 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 02:49:22,538 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 02:49:23,827 - main_train_baseline.py[line:84] - INFO: Train epoch: 31 [0/3280922 (0%)]	Loss: 0.002532
+2022-07-20 02:54:07,256 - main_train_baseline.py[line:84] - INFO: Train epoch: 31 [960000/3280922 (29%)]	Loss: 0.002211
+2022-07-20 02:58:50,325 - main_train_baseline.py[line:84] - INFO: Train epoch: 31 [1920000/3280922 (58%)]	Loss: 0.003249
+2022-07-20 03:03:34,349 - main_train_baseline.py[line:84] - INFO: Train epoch: 31 [2880000/3280922 (88%)]	Loss: 0.002825
+2022-07-20 03:05:31,678 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 03:05:31,679 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 03:07:06,807 - main_train_baseline.py[line:306] - INFO: Epoch 31 with AUCROC:AUCPR=0.9935:0.9448
+2022-07-20 03:07:06,807 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 03:07:06,808 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 03:07:08,106 - main_train_baseline.py[line:84] - INFO: Train epoch: 32 [0/3280922 (0%)]	Loss: 0.003466
+2022-07-20 03:11:51,238 - main_train_baseline.py[line:84] - INFO: Train epoch: 32 [960000/3280922 (29%)]	Loss: 0.002336
+2022-07-20 03:16:35,201 - main_train_baseline.py[line:84] - INFO: Train epoch: 32 [1920000/3280922 (58%)]	Loss: 0.003143
+2022-07-20 03:21:20,550 - main_train_baseline.py[line:84] - INFO: Train epoch: 32 [2880000/3280922 (88%)]	Loss: 0.002963
+2022-07-20 03:23:20,497 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 03:23:20,497 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 03:24:56,229 - main_train_baseline.py[line:306] - INFO: Epoch 32 with AUCROC:AUCPR=0.9935:0.9448
+2022-07-20 03:24:56,230 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 03:24:56,230 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 03:24:57,510 - main_train_baseline.py[line:84] - INFO: Train epoch: 33 [0/3280922 (0%)]	Loss: 0.002153
+2022-07-20 03:29:43,246 - main_train_baseline.py[line:84] - INFO: Train epoch: 33 [960000/3280922 (29%)]	Loss: 0.003129
+2022-07-20 03:34:31,377 - main_train_baseline.py[line:84] - INFO: Train epoch: 33 [1920000/3280922 (58%)]	Loss: 0.002192
+2022-07-20 03:39:17,565 - main_train_baseline.py[line:84] - INFO: Train epoch: 33 [2880000/3280922 (88%)]	Loss: 0.003078
+2022-07-20 03:41:15,617 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 03:41:15,617 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 03:42:52,268 - main_train_baseline.py[line:306] - INFO: Epoch 33 with AUCROC:AUCPR=0.9935:0.9449
+2022-07-20 03:42:52,269 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 03:42:52,270 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 03:42:53,639 - main_train_baseline.py[line:84] - INFO: Train epoch: 34 [0/3280922 (0%)]	Loss: 0.003298
+2022-07-20 03:47:37,853 - main_train_baseline.py[line:84] - INFO: Train epoch: 34 [960000/3280922 (29%)]	Loss: 0.003173
+2022-07-20 03:52:21,312 - main_train_baseline.py[line:84] - INFO: Train epoch: 34 [1920000/3280922 (58%)]	Loss: 0.003111
+2022-07-20 03:57:03,918 - main_train_baseline.py[line:84] - INFO: Train epoch: 34 [2880000/3280922 (88%)]	Loss: 0.003811
+2022-07-20 03:59:01,288 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 03:59:01,288 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 04:00:34,911 - main_train_baseline.py[line:306] - INFO: Epoch 34 with AUCROC:AUCPR=0.9935:0.9446
+2022-07-20 04:00:34,911 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 04:00:34,912 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 04:00:36,271 - main_train_baseline.py[line:84] - INFO: Train epoch: 35 [0/3280922 (0%)]	Loss: 0.002711
+2022-07-20 04:05:18,843 - main_train_baseline.py[line:84] - INFO: Train epoch: 35 [960000/3280922 (29%)]	Loss: 0.002357
+2022-07-20 04:10:00,089 - main_train_baseline.py[line:84] - INFO: Train epoch: 35 [1920000/3280922 (58%)]	Loss: 0.003275
+2022-07-20 04:14:43,681 - main_train_baseline.py[line:84] - INFO: Train epoch: 35 [2880000/3280922 (88%)]	Loss: 0.002231
+2022-07-20 04:16:40,869 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 04:16:40,870 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 04:18:12,242 - main_train_baseline.py[line:306] - INFO: Epoch 35 with AUCROC:AUCPR=0.9935:0.9449
+2022-07-20 04:18:12,242 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 04:18:12,243 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 04:18:14,605 - main_train_baseline.py[line:84] - INFO: Train epoch: 36 [0/3280922 (0%)]	Loss: 0.002949
+2022-07-20 04:22:56,748 - main_train_baseline.py[line:84] - INFO: Train epoch: 36 [960000/3280922 (29%)]	Loss: 0.002815
+2022-07-20 04:27:39,087 - main_train_baseline.py[line:84] - INFO: Train epoch: 36 [1920000/3280922 (58%)]	Loss: 0.003085
+2022-07-20 04:32:21,579 - main_train_baseline.py[line:84] - INFO: Train epoch: 36 [2880000/3280922 (88%)]	Loss: 0.002365
+2022-07-20 04:34:18,833 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 04:34:18,834 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 04:35:50,882 - main_train_baseline.py[line:306] - INFO: Epoch 36 with AUCROC:AUCPR=0.9935:0.9448
+2022-07-20 04:35:50,882 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 04:35:50,882 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 04:35:52,161 - main_train_baseline.py[line:84] - INFO: Train epoch: 37 [0/3280922 (0%)]	Loss: 0.002791
+2022-07-20 04:40:33,818 - main_train_baseline.py[line:84] - INFO: Train epoch: 37 [960000/3280922 (29%)]	Loss: 0.002354
+2022-07-20 04:45:17,191 - main_train_baseline.py[line:84] - INFO: Train epoch: 37 [1920000/3280922 (58%)]	Loss: 0.003061
+2022-07-20 04:49:59,226 - main_train_baseline.py[line:84] - INFO: Train epoch: 37 [2880000/3280922 (88%)]	Loss: 0.002331
+2022-07-20 04:51:56,685 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 04:51:56,686 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 04:53:28,077 - main_train_baseline.py[line:306] - INFO: Epoch 37 with AUCROC:AUCPR=0.9935:0.9445
+2022-07-20 04:53:28,077 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 04:53:28,077 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 04:53:29,458 - main_train_baseline.py[line:84] - INFO: Train epoch: 38 [0/3280922 (0%)]	Loss: 0.002927
+2022-07-20 04:58:11,266 - main_train_baseline.py[line:84] - INFO: Train epoch: 38 [960000/3280922 (29%)]	Loss: 0.002353
+2022-07-20 05:02:52,980 - main_train_baseline.py[line:84] - INFO: Train epoch: 38 [1920000/3280922 (58%)]	Loss: 0.002843
+2022-07-20 05:07:35,809 - main_train_baseline.py[line:84] - INFO: Train epoch: 38 [2880000/3280922 (88%)]	Loss: 0.002500
+2022-07-20 05:09:32,864 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 05:09:32,865 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 05:11:04,333 - main_train_baseline.py[line:306] - INFO: Epoch 38 with AUCROC:AUCPR=0.9935:0.9446
+2022-07-20 05:11:04,333 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 05:11:04,333 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 05:11:05,584 - main_train_baseline.py[line:84] - INFO: Train epoch: 39 [0/3280922 (0%)]	Loss: 0.002435
+2022-07-20 05:15:47,160 - main_train_baseline.py[line:84] - INFO: Train epoch: 39 [960000/3280922 (29%)]	Loss: 0.002353
+2022-07-20 05:20:29,021 - main_train_baseline.py[line:84] - INFO: Train epoch: 39 [1920000/3280922 (58%)]	Loss: 0.003271
+2022-07-20 05:25:10,937 - main_train_baseline.py[line:84] - INFO: Train epoch: 39 [2880000/3280922 (88%)]	Loss: 0.002459
+2022-07-20 05:27:07,999 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 05:27:08,000 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 05:28:39,502 - main_train_baseline.py[line:306] - INFO: Epoch 39 with AUCROC:AUCPR=0.9935:0.9443
+2022-07-20 05:28:39,502 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 05:28:39,503 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 05:28:40,771 - main_train_baseline.py[line:84] - INFO: Train epoch: 40 [0/3280922 (0%)]	Loss: 0.003021
+2022-07-20 05:33:21,945 - main_train_baseline.py[line:84] - INFO: Train epoch: 40 [960000/3280922 (29%)]	Loss: 0.003147
+2022-07-20 05:38:04,962 - main_train_baseline.py[line:84] - INFO: Train epoch: 40 [1920000/3280922 (58%)]	Loss: 0.002867
+2022-07-20 05:42:46,701 - main_train_baseline.py[line:84] - INFO: Train epoch: 40 [2880000/3280922 (88%)]	Loss: 0.002843
+2022-07-20 05:44:43,789 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 05:44:43,790 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 05:46:15,306 - main_train_baseline.py[line:306] - INFO: Epoch 40 with AUCROC:AUCPR=0.9935:0.9447
+2022-07-20 05:46:15,306 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 05:46:15,307 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 05:46:16,596 - main_train_baseline.py[line:84] - INFO: Train epoch: 41 [0/3280922 (0%)]	Loss: 0.002595
+2022-07-20 05:50:58,504 - main_train_baseline.py[line:84] - INFO: Train epoch: 41 [960000/3280922 (29%)]	Loss: 0.002360
+2022-07-20 05:55:40,093 - main_train_baseline.py[line:84] - INFO: Train epoch: 41 [1920000/3280922 (58%)]	Loss: 0.002708
+2022-07-20 06:00:23,090 - main_train_baseline.py[line:84] - INFO: Train epoch: 41 [2880000/3280922 (88%)]	Loss: 0.002898
+2022-07-20 06:02:20,073 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 06:02:20,073 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 06:03:50,783 - main_train_baseline.py[line:306] - INFO: Epoch 41 with AUCROC:AUCPR=0.9935:0.9445
+2022-07-20 06:03:50,784 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 06:03:50,784 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 06:03:52,023 - main_train_baseline.py[line:84] - INFO: Train epoch: 42 [0/3280922 (0%)]	Loss: 0.002933
+2022-07-20 06:08:31,727 - main_train_baseline.py[line:84] - INFO: Train epoch: 42 [960000/3280922 (29%)]	Loss: 0.001819
+2022-07-20 06:13:10,790 - main_train_baseline.py[line:84] - INFO: Train epoch: 42 [1920000/3280922 (58%)]	Loss: 0.003188
+2022-07-20 06:17:50,285 - main_train_baseline.py[line:84] - INFO: Train epoch: 42 [2880000/3280922 (88%)]	Loss: 0.003466
+2022-07-20 06:19:46,301 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 06:19:46,302 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 06:21:15,848 - main_train_baseline.py[line:306] - INFO: Epoch 42 with AUCROC:AUCPR=0.9934:0.9442
+2022-07-20 06:21:15,848 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 06:21:15,848 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 06:21:17,121 - main_train_baseline.py[line:84] - INFO: Train epoch: 43 [0/3280922 (0%)]	Loss: 0.001970
+2022-07-20 06:25:57,518 - main_train_baseline.py[line:84] - INFO: Train epoch: 43 [960000/3280922 (29%)]	Loss: 0.003417
+2022-07-20 06:30:36,627 - main_train_baseline.py[line:84] - INFO: Train epoch: 43 [1920000/3280922 (58%)]	Loss: 0.002536
+2022-07-20 06:35:16,172 - main_train_baseline.py[line:84] - INFO: Train epoch: 43 [2880000/3280922 (88%)]	Loss: 0.003399
+2022-07-20 06:37:12,204 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 06:37:12,205 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 06:38:41,908 - main_train_baseline.py[line:306] - INFO: Epoch 43 with AUCROC:AUCPR=0.9934:0.9443
+2022-07-20 06:38:41,908 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 06:38:41,909 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 06:38:43,137 - main_train_baseline.py[line:84] - INFO: Train epoch: 44 [0/3280922 (0%)]	Loss: 0.002921
+2022-07-20 06:43:22,999 - main_train_baseline.py[line:84] - INFO: Train epoch: 44 [960000/3280922 (29%)]	Loss: 0.002403
+2022-07-20 06:48:03,669 - main_train_baseline.py[line:84] - INFO: Train epoch: 44 [1920000/3280922 (58%)]	Loss: 0.002327
+2022-07-20 06:52:43,400 - main_train_baseline.py[line:84] - INFO: Train epoch: 44 [2880000/3280922 (88%)]	Loss: 0.003305
+2022-07-20 06:54:39,469 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 06:54:39,470 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 06:56:08,991 - main_train_baseline.py[line:306] - INFO: Epoch 44 with AUCROC:AUCPR=0.9935:0.9445
+2022-07-20 06:56:08,991 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 06:56:08,992 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 06:56:10,237 - main_train_baseline.py[line:84] - INFO: Train epoch: 45 [0/3280922 (0%)]	Loss: 0.002324
+2022-07-20 07:00:49,804 - main_train_baseline.py[line:84] - INFO: Train epoch: 45 [960000/3280922 (29%)]	Loss: 0.002736
+2022-07-20 07:05:29,578 - main_train_baseline.py[line:84] - INFO: Train epoch: 45 [1920000/3280922 (58%)]	Loss: 0.003058
+2022-07-20 07:10:10,246 - main_train_baseline.py[line:84] - INFO: Train epoch: 45 [2880000/3280922 (88%)]	Loss: 0.002829
+2022-07-20 07:12:06,290 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 07:12:06,290 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 07:13:34,851 - main_train_baseline.py[line:306] - INFO: Epoch 45 with AUCROC:AUCPR=0.9934:0.9443
+2022-07-20 07:13:34,851 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 07:13:34,851 - main_train_baseline.py[line:56] - INFO: Training on 3280922 samples...
+2022-07-20 07:13:37,109 - main_train_baseline.py[line:84] - INFO: Train epoch: 46 [0/3280922 (0%)]	Loss: 0.002639
+2022-07-20 07:18:16,552 - main_train_baseline.py[line:84] - INFO: Train epoch: 46 [960000/3280922 (29%)]	Loss: 0.002217
+2022-07-20 07:22:57,007 - main_train_baseline.py[line:84] - INFO: Train epoch: 46 [1920000/3280922 (58%)]	Loss: 0.004036
+2022-07-20 07:27:36,806 - main_train_baseline.py[line:84] - INFO: Train epoch: 46 [2880000/3280922 (88%)]	Loss: 0.002269
+2022-07-20 07:29:33,078 - main_train_baseline.py[line:300] - INFO: predicting for valid data
+2022-07-20 07:29:33,079 - main_train_baseline.py[line:93] - INFO: Make prediction for 820230 samples...
+2022-07-20 07:31:02,507 - main_train_baseline.py[line:306] - INFO: Epoch 46 with AUCROC:AUCPR=0.9934:0.9443
+2022-07-20 07:31:02,508 - main_train_baseline.py[line:322] - INFO: BestEpoch=26; BestResult=0.9936 with AUCROC.
+2022-07-20 07:31:02,508 - main_train_baseline.py[line:338] - INFO: Early Stop.
