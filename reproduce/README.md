@@ -8,8 +8,6 @@ b. Table S4 and Table S8 from [Frontiers | DeepHLApan: A Deep Learning Approach 
 
 c.  ori_test_cells.csv and sars_cov_2_result.csv from [DeepImmuno/reproduce/data at main · frankligy/DeepImmuno (github.com)](https://github.com/frankligy/DeepImmuno/tree/main/reproduce/data)
 
-
-
 Please follow the guide below to replicate the experiments in the full text of APPDFT.
 
 # 1. Generate training data
