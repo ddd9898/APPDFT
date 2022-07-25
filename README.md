@@ -8,17 +8,7 @@ _ _ _ _
 
 ## 1.  Dependencies
 
-Pytorch
-
-Pandas
-
-numpy
-
-tqdm
-
-matplotlib
-
-seaborn
+python(version=3.7.9); pytorch(version=1.8.0)；pandas(version=1.2.4); numpy(version=1.18.5); tqdm(version=4.56.0); matplotlib(version=3.3.2); seaborn(version=0.11.1)
 
 ## 2. Tutorial
 
